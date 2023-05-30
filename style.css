@@ -1,0 +1,236 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.background {
+    background-image: url("background.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+  }
+
+
+  .imagefem {
+    animation: fade 2s ease-in-out forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.imagefem2 {
+animation: fade 5s ease-in-out forwards;
+}
+@keyframes fade2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+        100% {
+            opacity: 0;
+        }
+    }
+
+
+    .headline1 {
+    
+   animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    }
+
+    
+    @keyframes move {
+        from {
+        left: -100%;
+        }
+        to {
+        left: 50%;
+        transform: translateX(-50%);
+        }
+    }
+
+    #headline2 {  
+            animation-name: move;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            }
+            
+            @keyframes move {
+                from {
+                left: -100%;
+                }
+                to {
+                left: 50%;
+                transform: translateX(-50%);
+                }
+                
+            }
+
+
+    
+        @keyframes fadeIn {
+            0% {
+                transform:scale(0,0);
+                visibility:visible;
+                opacity:0;
+            }
+            100% {
+                transform:scale(1,1);
+                visibility:visible;
+                    opacity:1;
+                }
+            
+                    0% {
+                        opacity: 0;
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+            } 
+        
+            .imagefem3 {
+             visibility:hidden;
+            animation: fadeIn 5s forwards 3s;
+            position: absolute;
+            bottom: 100px;
+            left: 100px;
+            z-index: 2;
+        }
+
+        .imagefem4 {
+            visibility:hidden;
+            animation: fadeIn 5s forwards 5s;
+            position: absolute;
+            bottom: 10px;
+            left: 100px;
+            z-index: 2;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                transform:scale(0,0);
+                visibility:visible;
+                opacity:0;
+            }
+            100% {
+                transform:scale(1,1);
+                visibility:visible;
+                opacity:1;
+            }
+                0% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                        opacity: 0;
+                    }
+            } 
+
+            .imagefem5 {
+                visibility:hidden;
+                animation: fadeIn 5s forwards 5s;
+                position: absolute;
+                bottom: 300px;
+                left: 600px;
+                z-index: 2;
+            
+            }
+
+        @keyframes fadeIn {
+            0% {
+                transform:scale(0,0);
+                visibility:visible;
+                opacity:0;
+            }
+            100% {
+                transform:scale(1,1);
+                visibility:visible;
+                opacity:1;
+            }
+            
+            } 
+            .imagefem6 {
+                visibility:hidden;
+                animation: fadeIn 5s forwards 5s;
+                position: absolute;
+            bottom:50px;
+            left:700px;
+                z-index: 2;
+            
+            
+            }
+
+        @keyframes fadeIn {
+            0% {
+                transform:scale(0,0);
+                visibility:visible;
+                opacity:0;
+            }
+            100% {
+                transform:scale(1,1);
+                visibility:visible;
+                opacity:1;
+            }
+            
+            } 
+            .imagefem7 {
+                visibility:hidden;
+                animation: fadeIn6 5s forwards 5s;
+                position: absolute;
+            bottom:200px;
+            left:700px;
+                z-index: 2;
+            
+            
+        }
+
+        @keyframes fadeIn {
+            0% {
+                transform:scale(0,0);
+                visibility:visible;
+                opacity:0;
+            }
+            100% {
+                transform:scale(1,1);
+                visibility:visible;
+                opacity:1;
+            }
+            
+}
